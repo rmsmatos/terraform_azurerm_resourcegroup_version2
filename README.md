@@ -52,7 +52,7 @@ No modules.
 ### Example
 ```hcl
 module "azurerm_resourcegroup_type1" {
-  source   = "github.com/rmsmatos/terraform_azurerm_resourcegroup_version1"
+  source   = "github.com/rmsmatos/terraform_azurerm_resourcegroup_version2"
   name     = "just-a-test"
   location = "westeurope"
   tags = {
