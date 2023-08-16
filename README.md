@@ -37,7 +37,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_location"></a> [location](#input_location) | (Required) The Azure Region where the Resource Group should exist. Changing this forces a new Resource Group to be created. | `string` | n/a | yes |
 | <a name="input_name"></a> [name](#input_name) | (Required) The Name which should be used for this Resource Group. Changing this forces a new Resource Group to be created. | `string` | n/a | yes |
-| <a name="input_managed_by"></a> [managed_by](#input_managed_by) | (Required) The Azure Region where the Resource Group should exist. Changing this forces a new Resource Group to be created. | `string` | `null` | no |
+| <a name="input_managed_by"></a> [managed_by](#input_managed_by) | (Optional) The ID of the resource or application that manages this Resource Group. | `string` | `null` | no |
 | <a name="input_tags"></a> [tags](#input_tags) | (Optional) A mapping of tags which should be assigned to the Resource Group. | `map(string)` | `null` | no |
 #### Outputs
 
